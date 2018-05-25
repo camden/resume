@@ -4,7 +4,22 @@ import Resume from 'components/Resume';
 
 class Index extends React.Component {
   render() {
-    const resumeData = fromJS(this.props.data.allResumeHJson.edges[0].node);
+    const resumeData = fromJS(this.props.data).getIn([
+      'allResumeHJson',
+      'edges',
+      0,
+      'node',
+    ]);
+
+    if (!resumeData) {
+      return (
+        <div>
+          Oops! Something went wrong. Check the gatsby console to see if there
+          are any errors.
+        </div>
+      );
+    }
+
     return <Resume data={resumeData} />;
   }
 }
@@ -17,6 +32,7 @@ export const query = graphql`
       edges {
         node {
           ...Work
+          ...Projects
         }
       }
     }

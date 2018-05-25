@@ -6,5 +6,13 @@
       "jsx": true
     }
   },
-  "extends": ["prettier", "prettier/react"]
+  "globals": {
+    "graphql": false
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "prettier",
+    "prettier/react"
+  ]
 }

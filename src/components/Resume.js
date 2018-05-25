@@ -1,5 +1,6 @@
 import React from 'react';
 import Work from 'components/Work';
+import Projects from 'components/Projects';
 
 class Resume extends React.Component {
   render() {
@@ -9,6 +10,11 @@ class Resume extends React.Component {
       <div>
         <h3>Work:</h3>
         <Work workItems={data.get('work')} />
+        <h3>Projects:</h3>
+        <Projects
+          projectItems={data.getIn(['projects', 'items'])}
+          subtitle={data.getIn(['projects', 'subtitle'])}
+        />
       </div>
     );
   }
