@@ -1,6 +1,7 @@
 import React from 'react';
 import Work from 'components/Work';
 import Projects from 'components/Projects';
+import Section from './Section';
 
 class Resume extends React.Component {
   render() {
@@ -8,13 +9,15 @@ class Resume extends React.Component {
 
     return (
       <div>
-        <h3>Work:</h3>
-        <Work workItems={data.get('work')} />
-        <h3>Projects:</h3>
-        <Projects
-          projectItems={data.getIn(['projects', 'items'])}
-          subtitle={data.getIn(['projects', 'subtitle'])}
-        />
+        <Section title="Work">
+          <Work workItems={data.get('work')} />
+        </Section>
+        <Section title="Projects">
+          <Projects
+            projectItems={data.getIn(['projects', 'items'])}
+            subtitle={data.getIn(['projects', 'subtitle'])}
+          />
+        </Section>
       </div>
     );
   }
