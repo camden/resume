@@ -4,6 +4,7 @@ import Resume from 'components/Resume';
 
 class Index extends React.Component {
   render() {
+    console.log(this.props.data);
     const resumeData = fromJS(this.props.data).getIn([
       'allResumeHJson',
       'edges',

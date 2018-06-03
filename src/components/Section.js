@@ -1,11 +1,21 @@
 import React from 'react';
 
 const Section = props => {
-  const { title, children } = props;
+  const { section, data } = props;
+  const {
+    title,
+    mainPropertyPath,
+    itemKey,
+    itemComponent: ItemComponent,
+  } = section;
+  const itemData = data.getIn(mainPropertyPath);
+
   return (
     <div>
-      <h3>{title}</h3>
-      <div>{children}</div>
+      <h2>{title}</h2>
+      {itemData.map(item => (
+        <ItemComponent key={item.get(itemKey)} data={item} />
+      ))}
     </div>
   );
 };

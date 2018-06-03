@@ -1,8 +1,14 @@
 import React from 'react';
+import GenericItem from 'components/GenericItem';
 
 class WorkItem extends React.Component {
   render() {
-    return <div>{this.props.company}</div>;
+    const { data } = this.props;
+    return (
+      <GenericItem title={data.get('company')}>
+        {data.get('position')}
+      </GenericItem>
+    );
   }
 }
 

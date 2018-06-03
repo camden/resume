@@ -1,7 +1,6 @@
 import React from 'react';
-import Work from 'components/Work';
-import Projects from 'components/Projects';
-import Section from './Section';
+import Section from 'components/Section';
+import sections from 'config/sections';
 
 class Resume extends React.Component {
   render() {
@@ -9,15 +8,9 @@ class Resume extends React.Component {
 
     return (
       <div>
-        <Section title="Work">
-          <Work workItems={data.get('work')} />
-        </Section>
-        <Section title="Projects">
-          <Projects
-            projectItems={data.getIn(['projects', 'items'])}
-            subtitle={data.getIn(['projects', 'subtitle'])}
-          />
-        </Section>
+        {sections.map(section => (
+          <Section key={section.title} section={section} data={data} />
+        ))}
       </div>
     );
   }

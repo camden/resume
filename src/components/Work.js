@@ -15,17 +15,3 @@ class Work extends React.Component {
 }
 
 export default Work;
-
-export const workQuery = graphql`
-  fragment Work on ResumeHJson {
-    work {
-      company
-      website
-      position
-      startDate
-      endDate
-      summary
-      techUsed
-    }
-  }
-`;
