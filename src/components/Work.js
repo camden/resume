@@ -3,10 +3,10 @@ import WorkItem from 'components/WorkItem';
 
 class Work extends React.Component {
   render() {
-    const { workItems } = this.props;
+    const { data } = this.props;
     return (
       <div>
-        {workItems.map(item => (
+        {data.map(item => (
           <WorkItem key={item.get('company')} {...item.toJS()} />
         ))}
       </div>

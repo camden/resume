@@ -3,6 +3,7 @@ import ProjectItem from 'components/ProjectItem';
 
 class Projects extends React.Component {
   render() {
+    console.log(this.props);
     const { projectItems, subtitle } = this.props;
     return (
       <div>
@@ -16,18 +17,3 @@ class Projects extends React.Component {
 }
 
 export default Projects;
-
-export const projectsQuery = graphql`
-  fragment Projects on ResumeHJson {
-    projects {
-      subtitle
-      items {
-        title
-        summary
-        techUsed
-        dateFinished
-        hidden
-      }
-    }
-  }
-`;
