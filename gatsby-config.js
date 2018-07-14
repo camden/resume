@@ -9,5 +9,11 @@ module.exports = {
         path: `${__dirname}/data/`,
       },
     },
+    {
+      resolve: 'gatsby-plugin-google-fonts',
+      options: {
+        fonts: ['merriweather'],
+      },
+    },
   ],
 };
