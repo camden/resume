@@ -12,7 +12,7 @@ export default [
     itemKey: 'institution',
   },
   {
-    title: 'Work',
+    title: 'Experience',
     itemComponent: WorkItem,
     mainPropertyPath: ['work'],
     itemKey: 'company',
@@ -60,6 +60,7 @@ export const fragments = graphql`
       endDate
       summary
       techUsed
+      highlights
     }
   }
 

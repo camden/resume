@@ -37,6 +37,7 @@ const Wrapper = styled.div`
 const Title = styled.h2`
   color: ${styles.colors.sectionTitle};
   flex-basis: 10rem;
+  margin: 0;
 `;
 
 const ItemWrapper = styled.div`
