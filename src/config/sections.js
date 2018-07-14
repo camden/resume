@@ -1,6 +1,8 @@
 import WorkItem from 'components/WorkItem';
 import ProjectItem from 'components/ProjectItem';
 import EducationItem from 'components/EducationItem';
+import VolunteerItem from 'components/VolunteerItem';
+import SkillItem from 'components/SkillItem';
 
 export default [
   {
@@ -20,6 +22,18 @@ export default [
     itemComponent: ProjectItem,
     mainPropertyPath: ['projects', 'items'],
     itemKey: 'title',
+  },
+  {
+    title: 'Volunteering',
+    itemComponent: VolunteerItem,
+    mainPropertyPath: ['volunteer'],
+    itemKey: 'organization',
+  },
+  {
+    title: 'Skills',
+    itemComponent: SkillItem,
+    mainPropertyPath: ['skills'],
+    itemKey: 'type',
   },
 ];
 
@@ -62,6 +76,23 @@ export const fragments = graphql`
       awards
       activities
       highlights
+    }
+  }
+
+  fragment Skills on ResumeHJson {
+    skills {
+      type
+      list
+    }
+  }
+
+  fragment Volunteer on ResumeHJson {
+    volunteer {
+      organization
+      position
+      startDate
+      endDate
+      summary
     }
   }
 `;

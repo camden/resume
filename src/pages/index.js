@@ -35,6 +35,8 @@ export const query = graphql`
           ...Education
           ...Work
           ...Projects
+          ...Skills
+          ...Volunteer
         }
       }
     }

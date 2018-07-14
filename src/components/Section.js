@@ -10,6 +10,10 @@ const Section = props => {
   } = section;
   const itemData = data.getIn(mainPropertyPath);
 
+  if (!itemData) {
+    console.log(data);
+    throw new Error(`Could not get item data for ${title}.`);
+  }
   return (
     <div>
       <h2>{title}</h2>
