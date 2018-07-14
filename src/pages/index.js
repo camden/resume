@@ -1,6 +1,7 @@
 import React from 'react';
 import { fromJS } from 'immutable';
 import Resume from 'components/Resume';
+import styled from 'react-emotion';
 
 class Index extends React.Component {
   render() {
@@ -21,9 +22,18 @@ class Index extends React.Component {
       );
     }
 
-    return <Resume data={resumeData} />;
+    return (
+      <Wrapper>
+        <Resume data={resumeData} />
+      </Wrapper>
+    );
   }
 }
+
+const Wrapper = styled.div`
+  display: flex;
+  justify-content: center;
+`;
 
 export default Index;
 
