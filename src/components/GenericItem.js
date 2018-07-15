@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'react-emotion';
+import Title from 'components/shared/Title';
 
 class GenericItem extends React.Component {
   render() {
@@ -23,13 +24,6 @@ const Wrapper = styled.div`
 const Header = styled.div`
   display: flex;
   flex-direction: row;
-`;
-
-const Title = styled.h4`
-  flex: 0 0 auto;
-  font-weight: bold;
-  margin: 0;
-  margin-right: 1rem;
 `;
 
 const Subtitle = styled.span`
