@@ -13,4 +13,7 @@ export default {
     text: '#333',
     sectionTitle: 'palevioletred',
   },
+  options: {
+    serif: true,
+  },
 };

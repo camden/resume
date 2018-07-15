@@ -21,7 +21,7 @@ class Resume extends React.Component {
 }
 
 const Wrapper = styled.div`
-  font-family: Merriweather;
+  font-family: ${styles.options.serif ? 'Merriweather' : 'sans-serif'};
   font-size: ${styles.fontSize.document};
   margin: 0 3rem;
   color: ${styles.colors.text};
