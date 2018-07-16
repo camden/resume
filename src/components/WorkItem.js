@@ -1,6 +1,7 @@
 import React from 'react';
 import GenericItem from 'components/GenericItem';
 import styled from 'react-emotion';
+import styles from 'config/styles';
 
 class WorkItem extends React.Component {
   render() {
@@ -22,6 +23,7 @@ class WorkItem extends React.Component {
 const HighlightsList = styled.ul`
   list-style-position: outside;
   padding: 0 1.2rem;
+  margin: ${styles.spacing.sectionSubItemVerticalMargin} 0;
 `;
 
 const Highlight = styled.li``;

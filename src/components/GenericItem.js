@@ -18,7 +18,7 @@ class GenericItem extends React.Component {
 }
 
 const Wrapper = styled.div`
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 `;
 
 const Header = styled.div`

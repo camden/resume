@@ -1,4 +1,7 @@
 export default {
+  spacing: {
+    sectionSubItemVerticalMargin: '0.5em',
+  },
   breakpoints: {
     mobile: '780px',
   },

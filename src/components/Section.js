@@ -29,7 +29,7 @@ const Section = props => {
 };
 
 const Wrapper = styled.div`
-  margin-top: 1rem;
+  margin-top: 0.5rem;
   display: flex;
   flex-wrap: wrap;
 `;
@@ -42,7 +42,7 @@ const Title = styled.h2`
 
 const ItemWrapper = styled.div`
   flex-basis: 100%;
-  @media (min-width: ${styles.breakpoints.mobile}) {
+  @media print, (min-width: ${styles.breakpoints.mobile}) {
     flex: 1;
   }
 `;
