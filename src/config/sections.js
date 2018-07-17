@@ -70,6 +70,8 @@ export const fragments = graphql`
           iconName
         }
       }
+      interests
+      footer
     }
   }
 

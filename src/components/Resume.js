@@ -16,6 +16,7 @@ class Resume extends React.Component {
         {sections.map(section => (
           <Section key={section.title} section={section} data={data} />
         ))}
+        <Footer>{data.getIn(['info', 'footer'])}</Footer>
       </Wrapper>
     );
   }
@@ -27,6 +28,12 @@ const Wrapper = styled.div`
   margin: 0 2rem 1rem;
   color: ${styles.colors.text};
   max-width: 8.5in;
+`;
+
+const Footer = styled.div`
+  margin-top: 2rem;
+  font-style: italic;
+  text-align: center;
 `;
 
 export default Resume;
