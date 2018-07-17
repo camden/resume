@@ -1,7 +1,7 @@
 import React from 'react';
 import { fromJS } from 'immutable';
 import Resume from 'components/Resume';
-import styled from 'react-emotion';
+import styled, { injectGlobal } from 'react-emotion';
 
 class Index extends React.Component {
   render() {
@@ -33,6 +33,17 @@ class Index extends React.Component {
 const Wrapper = styled.div`
   display: flex;
   justify-content: center;
+`;
+
+injectGlobal`
+  @page {
+    margin: 0;
+  }
+
+  body {
+    // https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-print-color-adjust
+    -webkit-print-color-adjust: exact;
+  }
 `;
 
 export default Index;
