@@ -14,6 +14,7 @@ export default {
   },
   colors: {
     text: '#333',
+    itemDate: '#999',
     sectionTitle: 'palevioletred',
   },
   options: {
