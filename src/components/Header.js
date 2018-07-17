@@ -30,10 +30,24 @@ const Header = props => {
         </InfoRow>
         <InfoRow>
           <Github size={styles.fontSize.icon} />
-          <InfoItem>{data.getIn(['profiles', 'github', 'username'])}</InfoItem>
+          <InfoItem>
+            <InfoLink
+              href={data.getIn(['profiles', 'github', 'url'])}
+              target={'_blank'}
+            >
+              {data.getIn(['profiles', 'github', 'username'])}
+            </InfoLink>
+          </InfoItem>
           <Spacer />
           <Globe size={styles.fontSize.icon} />
-          <InfoItem>{data.getIn(['profiles', 'website', 'username'])}</InfoItem>
+          <InfoLink
+            href={data.getIn(['profiles', 'website', 'url'])}
+            target={'_blank'}
+          >
+            <InfoItem>
+              {data.getIn(['profiles', 'website', 'username'])}
+            </InfoItem>
+          </InfoLink>
         </InfoRow>
       </Info>
     </Wrapper>
@@ -74,6 +88,10 @@ const InfoRow = styled.div`
 
 const InfoItem = styled.span`
   margin-left: 0.5em;
+`;
+
+const InfoLink = styled.a`
+  color: inherit;
 `;
 
 export default Header;
