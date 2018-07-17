@@ -24,7 +24,7 @@ export default [
     itemKey: 'title',
   },
   {
-    title: 'Volunteering',
+    title: 'Volunteer',
     itemComponent: VolunteerItem,
     mainPropertyPath: ['volunteer'],
     itemKey: 'organization',

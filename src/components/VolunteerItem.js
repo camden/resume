@@ -8,10 +8,11 @@ class VolunteerItem extends React.Component {
     return (
       <GenericItem
         title={data.get('organization')}
+        subtitle={data.get('position')}
         startDate={data.get('startDate')}
         endDate={data.get('endDate')}
       >
-        <ItemParagraph>{data.get('position')}</ItemParagraph>
+        <ItemParagraph>{data.get('summary')}</ItemParagraph>
       </GenericItem>
     );
   }
