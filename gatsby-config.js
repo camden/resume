@@ -3,6 +3,7 @@ module.exports = {
     'gatsby-transformer-hjson',
     'gatsby-plugin-resolve-src',
     'gatsby-plugin-react-helmet',
+    'gatsby-plugin-emotion',
     {
       resolve: 'gatsby-source-filesystem',
       options: {
