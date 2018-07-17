@@ -15,5 +15,12 @@ module.exports = {
         fonts: [`merriweather\:300i,400,900`],
       },
     },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: 'UA-71680879-3',
+        head: true,
+      },
+    },
   ],
 };
