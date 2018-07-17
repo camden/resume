@@ -3,10 +3,10 @@ import { fromJS } from 'immutable';
 import Resume from 'components/Resume';
 import styled, { injectGlobal } from 'react-emotion';
 import Helmet from 'react-helmet';
+import favicon from 'assets/favicon.png';
 
 class Index extends React.Component {
   render() {
-    console.log(this.props.data);
     const resumeData = fromJS(this.props.data).getIn([
       'allResumeHJson',
       'edges',
@@ -17,15 +17,17 @@ class Index extends React.Component {
     if (!resumeData) {
       return (
         <div>
-          Oops! Something went wrong. Check the gatsby console to see if there
-          are any errors.
+          Oops! Something went wrong. Ping me at{' '}
+          <a href="https://twitter.com/camdenbickel">@camdenbickel</a>, please!
         </div>
       );
     }
 
     return (
       <Wrapper>
-        <Helmet title={"Camden Bickel's Résumé"} />
+        <Helmet title={"Camden Bickel's Résumé"}>
+          <link rel="icon" type="image/png" href={favicon} sizes="64x64" />
+        </Helmet>
         <Resume data={resumeData} />
       </Wrapper>
     );
