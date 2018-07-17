@@ -4,6 +4,7 @@ import sections from 'config/sections';
 import styled from 'react-emotion';
 import Header from 'components/Header';
 import styles from 'config/styles';
+import mergeEnvData from 'utils/mergeEnvData';
 
 class Resume extends React.Component {
   render() {
@@ -11,7 +12,7 @@ class Resume extends React.Component {
 
     return (
       <Wrapper>
-        <Header />
+        <Header data={mergeEnvData(data.get('info'))} />
         {sections.map(section => (
           <Section key={section.title} section={section} data={data} />
         ))}

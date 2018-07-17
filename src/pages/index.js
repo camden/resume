@@ -53,6 +53,7 @@ export const query = graphql`
     allResumeHJson(limit: 1) {
       edges {
         node {
+          ...Info
           ...Education
           ...Work
           ...Projects

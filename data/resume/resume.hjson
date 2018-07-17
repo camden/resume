@@ -9,7 +9,7 @@
     }
   },
 
-  "basics": {
+  "info": {
     "name": "Camden Bickel",
     "label": "Software Engineer",
     "email": "",
@@ -26,20 +26,20 @@
       "iconLocation": "map-marker"
     },
     "availability": "Available 01/18 - 06/18",
-    "profiles": [
-      {
+    "profiles": {
+      github: {
         "network": "GitHub",
         "username": "camden",
         "url": "http://github.com/camden",
         "iconName": "fa-github"
       },
-      {
+      website: {
         "network": "Website",
         "username": "cam.bickel.io",
         "url": "http://cam.bickel.io",
         "iconName": "fa-globe"
       }
-    ]
+    }
   },
   "work": [
     {
@@ -166,6 +166,5 @@
 
   "interests": "Ultimate Frisbee, D&D, Cooking",
   "footer": "References available upon request."
-
 }
 

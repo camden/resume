@@ -38,6 +38,41 @@ export default [
 ];
 
 export const fragments = graphql`
+  fragment Info on ResumeHJson {
+    info {
+      name
+      label
+      email
+      phone
+      iconPhone
+      iconEmail
+      availability
+      location {
+        address
+        postalCode
+        city
+        countryCode
+        region
+        regionAbbrev
+        iconLocation
+      }
+      profiles {
+        github {
+          network
+          username
+          url
+          iconName
+        }
+        website {
+          network
+          username
+          url
+          iconName
+        }
+      }
+    }
+  }
+
   fragment Projects on ResumeHJson {
     projects {
       subtitle
