@@ -49,6 +49,12 @@ const Wrapper = styled.div`
 const Name = styled.h2`
   font-size: ${styles.fontSize.xLarge};
   margin-top: 0;
+  margin-right: 2rem;
+
+  @media (min-width: ${styles.breakpoints.mobile}) {
+    justify-content: flex-end;
+    margin-right: 0;
+  }
 `;
 
 const Info = styled.div`
