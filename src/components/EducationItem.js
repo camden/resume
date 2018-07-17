@@ -14,11 +14,13 @@ class EducationItem extends React.Component {
         startDate={data.get('startDate')}
         endDate={data.get('endDate')}
       >
-        <ItemParagraph emphasized={true}>{data.get('college')}</ItemParagraph>
         <ItemParagraph emphasized={true}>
-          {data.get('area')}
-          <Spacer />
-          {data.get('subarea')}
+          <div>{data.get('college')}</div>
+          <div>
+            {data.get('area')}
+            <Spacer />
+            {data.get('subarea')}
+          </div>
         </ItemParagraph>
         <ItemInlineList title={'Activities'} items={data.get('activities')} />
         <ItemInlineList title={'Awards/Honors'} items={data.get('awards')} />
