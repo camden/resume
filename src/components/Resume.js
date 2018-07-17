@@ -25,9 +25,13 @@ class Resume extends React.Component {
 const Wrapper = styled.div`
   font-family: ${styles.options.serif ? 'Merriweather' : 'sans-serif'};
   font-size: ${styles.fontSize.document};
-  margin: 0 2rem 1rem;
+  margin: 0 0.75rem 0.5rem;
   color: ${styles.colors.text};
   max-width: 8.5in;
+
+  @media (min-width: ${styles.breakpoints.mobile}) {
+    margin: 0 2rem 1rem;
+  }
 `;
 
 const Footer = styled.div`
