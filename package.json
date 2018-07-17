@@ -18,7 +18,8 @@
     "gatsby-source-filesystem": "^1.5.36",
     "gatsby-transformer-hjson": "^1.0.4",
     "immutable": "^3.8.2",
-    "react-emotion": "^9.2.5"
+    "react-emotion": "^9.2.5",
+    "react-feather": "^1.1.1"
   },
   "devDependencies": {
     "babel-plugin-emotion": "^9.2.5",

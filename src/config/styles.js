@@ -11,6 +11,7 @@ export default {
     large: '1.6em',
     medium: '1em',
     small: '0.6em',
+    icon: '12',
   },
   colors: {
     text: '#333',

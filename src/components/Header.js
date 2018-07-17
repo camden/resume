@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'react-emotion';
 import styles from 'config/styles';
 import Spacer from 'components/shared/Spacer';
+import { Globe, Github, Mail, Phone, MapPin } from 'react-feather';
 
 const Header = props => {
   const { data } = props;
@@ -10,22 +11,29 @@ const Header = props => {
       <Name>Camden Bickel</Name>
       <Info>
         <InfoRow>
-          {`${data.getIn(['location', 'city'])}, ${data.getIn([
-            'location',
-            'region',
-          ])}`}
+          <MapPin size={styles.fontSize.icon} />
+          <InfoItem>
+            {`${data.getIn(['location', 'city'])}, ${data.getIn([
+              'location',
+              'region',
+            ])}`}
+          </InfoItem>
           <Spacer />
           {data.get('availability')}
         </InfoRow>
         <InfoRow>
-          {data.get('phone')}
+          <Mail size={styles.fontSize.icon} />
+          <InfoItem>{data.get('email')}</InfoItem>
           <Spacer />
-          {data.get('email')}
+          <Phone size={styles.fontSize.icon} />
+          <InfoItem>{data.get('phone')}</InfoItem>
         </InfoRow>
         <InfoRow>
-          {data.getIn(['profiles', 'github', 'username'])}
+          <Github size={styles.fontSize.icon} />
+          <InfoItem>{data.getIn(['profiles', 'github', 'username'])}</InfoItem>
           <Spacer />
-          {data.getIn(['profiles', 'website', 'username'])}
+          <Globe size={styles.fontSize.icon} />
+          <InfoItem>{data.getIn(['profiles', 'website', 'username'])}</InfoItem>
         </InfoRow>
       </Info>
     </Wrapper>
@@ -44,9 +52,17 @@ const Name = styled.h2`
 
 const Info = styled.div`
   flex: 1;
-  text-align: right;
 `;
 
-const InfoRow = styled.div``;
+const InfoRow = styled.div`
+  margin-top: 0.25em;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+`;
+
+const InfoItem = styled.span`
+  margin-left: 0.5em;
+`;
 
 export default Header;
