@@ -7,6 +7,12 @@ import Spacer from 'components/shared/Spacer';
 class EducationItem extends React.Component {
   render() {
     const { data } = this.props;
+    const subarea = data.get('subarea') && (
+      <span>
+        <Spacer />
+        {data.get('subarea')}
+      </span>
+    );
     return (
       <GenericItem
         title={data.get('institution')}
@@ -18,8 +24,7 @@ class EducationItem extends React.Component {
           <div>{data.get('college')}</div>
           <div>
             {data.get('area')}
-            <Spacer />
-            {data.get('subarea')}
+            {subarea}
           </div>
         </ItemParagraph>
         <ItemInlineList title={'Activities'} items={data.get('activities')} />

@@ -77,12 +77,12 @@
     {
       "institution": "Northeastern University",
       "college": "College of Computer & Information Science",
-      "area": "Computer Science",
-      "subarea": "Minor in Graphic Design",
-      "gpa": "3.68 / 4.00 GPA",
+      "area": "Computer Science and Design, BS",
+      "subarea": "",
+      "gpa": "3.65 / 4.00 GPA",
       "studyType": "Bachelor of Science",
       "startDate": "2015-09-02",
-      "endDate": "Present (Expected 2019)",
+      "endDate": "Present (Expected Spring 2020)",
       "awards": "Dean's Scholar, Dean's List, Honors Program",
       "activities": "Ultimate Frisbee Club Team",
       "highlights": "Semester abroad in Edinburgh in Fall 2017"
@@ -101,7 +101,7 @@
       },
       {
         "title": "TinyD20",
-        "summary": "D&D dice-simulator built from the ground-up using HTML/CSS, Javascript, and the Chrome Extension API. Currently has 3000+ active users and a 5-star review on the Chrome Web Store.",
+        "summary": "D&D dice-simulator built from the ground-up using HTML/CSS, Javascript, and the Chrome Extension API. Currently has 4000+ active users and a 5-star review on the Chrome Web Store.",
         "techUsed": "JavaScript, HTML5, CSS3, Chrome Extension API",
         "highlights": [
         ],
@@ -109,21 +109,20 @@
       },
       {
         "title": "This résumé",
-        "summary": "Built with React, using data from a resume.json file.",
+        "summary": "Built with React + Gatsby, using data from a resume.json file.",
         "techUsed": "React, JavaScript, Webpack",
         "highlights": [
 
         ],
-        "dateFinished": "2017-09-01"
+        "dateFinished": "2018-07-17"
       },
       {
         "title": "cam.bickel.io",
-        "summary": "Online portfolio made with HTML/CSS, SkeletonCSS, and Jekyll.",
-        "techUsed": "HTML5, CSS3, Jekyll, SkeletonCSS",
+        "summary": "Personal website made with React + Gatsby.",
+        "techUsed": "React.js, Gatsby",
         "highlights": [
-
         ],
-        "dateFinished": "2016-01-02"
+        "dateFinished": "2018-07-01"
       },
       {
         "title": "Menubar D20",
@@ -152,11 +151,11 @@
   "skills": [
     {
       "type": "Web Development",
-      "list": "React, Redux, Express, Webpack, FlowType, Enzyme, Sinon, Redis"
+      "list": "React, Redux, Jest, Express, Webpack, FlowType, Enzyme, Sinon, Redis"
     },
     {
       "type": "Programming Languages",
-      "list": "JavaScript, HTML5, CSS3, Python, Java, Lua, Racket"
+      "list": "JavaScript, TypeScript, HTML5, CSS3, Python, Java, Lua, Racket"
     },
     {
       "type": "Tools",
@@ -164,7 +163,7 @@
     }
   ],
 
-  "interests": "Ultimate Frisbee, D&D, Cooking",
+  "interests": "Ultimate Frisbee, Board Games, Cooking",
   "footer": "References available upon request."
 }
 
