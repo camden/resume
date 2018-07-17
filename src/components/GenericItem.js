@@ -47,6 +47,7 @@ const Wrapper = styled.div`
 const Header = styled.div`
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 `;
 
 const Subtitle = styled.span`

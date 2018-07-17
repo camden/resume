@@ -37,7 +37,11 @@ const Wrapper = styled.div`
 const Title = styled.h2`
   color: ${styles.colors.sectionTitle};
   flex-basis: 8rem;
-  margin: 0;
+  margin: 1em 0 1em;
+
+  @media (min-width: ${styles.breakpoints.mobile}) {
+    margin: 0;
+  }
 `;
 
 const ItemWrapper = styled.div`

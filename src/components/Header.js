@@ -42,6 +42,7 @@ const Header = props => {
 
 const Wrapper = styled.div`
   display: flex;
+  flex-wrap: wrap;
   margin-top: 0.5em;
 `;
 
@@ -58,7 +59,11 @@ const InfoRow = styled.div`
   margin-top: 0.25em;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: flex-start;
+
+  @media (min-width: ${styles.breakpoints.mobile}) {
+    justify-content: flex-end;
+  }
 `;
 
 const InfoItem = styled.span`
