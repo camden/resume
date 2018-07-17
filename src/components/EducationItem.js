@@ -8,7 +8,12 @@ class EducationItem extends React.Component {
   render() {
     const { data } = this.props;
     return (
-      <GenericItem title={data.get('institution')} subtitle={data.get('gpa')}>
+      <GenericItem
+        title={data.get('institution')}
+        subtitle={data.get('gpa')}
+        startDate={data.get('startDate')}
+        endDate={data.get('endDate')}
+      >
         <ItemParagraph emphasized={true}>{data.get('college')}</ItemParagraph>
         <ItemParagraph emphasized={true}>
           {data.get('area')}
