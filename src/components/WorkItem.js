@@ -7,7 +7,12 @@ class WorkItem extends React.Component {
   render() {
     const { data } = this.props;
     return (
-      <GenericItem title={data.get('company')} subtitle={data.get('position')}>
+      <GenericItem
+        title={data.get('company')}
+        subtitle={data.get('position')}
+        startDate={data.get('startDate')}
+        endDate={data.get('endDate')}
+      >
         <HighlightsList>
           {data
             .get('highlights')

@@ -6,7 +6,11 @@ class VolunteerItem extends React.Component {
   render() {
     const { data } = this.props;
     return (
-      <GenericItem title={data.get('organization')}>
+      <GenericItem
+        title={data.get('organization')}
+        startDate={data.get('startDate')}
+        endDate={data.get('endDate')}
+      >
         <ItemParagraph>{data.get('position')}</ItemParagraph>
       </GenericItem>
     );
