@@ -2,6 +2,7 @@ module.exports = {
   plugins: [
     'gatsby-transformer-hjson',
     'gatsby-plugin-resolve-src',
+    'gatsby-plugin-react-helmet',
     {
       resolve: 'gatsby-source-filesystem',
       options: {

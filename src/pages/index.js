@@ -2,6 +2,7 @@ import React from 'react';
 import { fromJS } from 'immutable';
 import Resume from 'components/Resume';
 import styled, { injectGlobal } from 'react-emotion';
+import Helmet from 'react-helmet';
 
 class Index extends React.Component {
   render() {
@@ -24,6 +25,7 @@ class Index extends React.Component {
 
     return (
       <Wrapper>
+        <Helmet title={"Camden Bickel's Résumé"} />
         <Resume data={resumeData} />
       </Wrapper>
     );
