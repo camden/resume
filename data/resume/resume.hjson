@@ -35,8 +35,8 @@
       },
       website: {
         "network": "Website",
-        "username": "cam.bickel.io",
-        "url": "http://cam.bickel.io",
+        "username": "cambickel.com",
+        "url": "https://cambickel.com",
         "iconName": "fa-globe"
       }
     },
