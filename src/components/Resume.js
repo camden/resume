@@ -5,10 +5,14 @@ import styled from 'react-emotion';
 import Header from 'components/Header';
 import styles from 'config/styles';
 import mergeEnvData from 'utils/mergeEnvData';
+import fixDataBasedOnQueryString from 'utils/fixDataBasedOnQueryString';
 
 class Resume extends React.Component {
   render() {
-    const { data } = this.props;
+    const { data: rawData, queryString } = this.props;
+
+    const data = fixDataBasedOnQueryString(rawData, queryString);
+    console.log(data);
 
     return (
       <Wrapper>

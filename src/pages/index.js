@@ -28,7 +28,7 @@ class Index extends React.Component {
         <Helmet title={"Camden Bickel's Résumé"}>
           <link rel="icon" type="image/png" href={favicon} sizes="64x64" />
         </Helmet>
-        <Resume data={resumeData} />
+        <Resume data={resumeData} queryString={this.props.location.search} />
       </Wrapper>
     );
   }
