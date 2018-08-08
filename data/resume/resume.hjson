@@ -51,8 +51,15 @@
       "startDate": "2018-06-04",
       "endDate": "Present",
       "summary": "",
-      "techUsed": "",
+      "techUsed": "React Native, Redux, TypeScript",
       "highlights": [
+        completely owned react native + typescript app
+        owned the major decisions about tech stack
+        implemented communication protocols
+        collaborated with team to align on requirements
+        created and executed multiple UX user tests
+        used Sketch to design many iterations of the core product
+        deep dove into UX flow
       ]
     },
     {
@@ -64,6 +71,12 @@
       "summary": "",
       "techUsed": "",
       "highlights": [
+        interacted with customers for calls
+        integrated existing infrastructure to support redux
+        worked across teams to build and ship widgets (e.g. feedback)
+        helped rewrite core feature of reporting platform (builder)
+        owned and shipped multiple large projects (color picker, db manager, generic list widget)
+        rewrote the documentation for a major library
       ]
     },
     {
@@ -73,7 +86,7 @@
       "startDate": "2017-01-09",
       "endDate": "2017-07-09",
       "summary": "",
-      "techUsed": "",
+      "techUsed": "React, Redux",
       "highlights": [
         "Won People's Choice Award at office-wide hackathon with fully-functional MVP web app",
         "Owned three major React + Redux dev tool projects, each fully tested with Sinon and Enzyme. Used daily by dozens of engineers across Intuit",
@@ -141,8 +154,8 @@
         "dateFinished": "2018-07-17"
       },
       {
-        "title": "cam.bickel.io",
-        "summary": "Personal website made with React + Gatsby.",
+        "title": "cambickel.com",
+        "summary": "Personal website made with React + Gatsby + a resume.json file.",
         "techUsed": "React.js, Gatsby",
         "highlights": [
         ],
