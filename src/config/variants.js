@@ -6,24 +6,19 @@ export default fromJS({
       // Amazon
       {
         highlights: [
-          'completely owned react native + typescript app',
-          'owned the major decisions about tech stack',
-          'implemented communication protocols',
-          'collaborated with team to align on requirements',
-          'created and executed multiple UX user tests',
-          'used Sketch to design many iterations of the core product',
-          'deep dove into UX flow',
+          'Developed a customer-facing React Native + Typescript app for a breakthrough Amazon Go project',
+          'Organized and executed a series of UX user tests using expectation testing and "think-aloud" tests',
+          'Designed multiple iterations of the core product using Sketch and Draw.io for use in user tests and presentations',
+          "Formalized the app's UX flow into a finite state machine that became the basis for UX discussions",
         ],
       },
       // HubSpot
       {
         highlights: [
-          'interacted with customers for calls',
-          'integrated existing infrastructure to support redux',
-          'worked across teams to build and ship widgets (e.g. feedback)',
-          'helped rewrite core feature of reporting platform (builder)',
-          'owned and shipped multiple large projects (color picker, db manager, generic list widget)',
-          'rewrote the documentation for a major library',
+          'Overhauled core features of the next major iteration of the reports builder',
+          "Adapted the product's plugin infrastructure to support Redux, upon which I implemented the first fully interactive plugin",
+          'Launched multiple projects within the reporting platform',
+          'Revamped the entire documentation for a major internal library used across HubSpot',
         ],
       },
       // Intuit

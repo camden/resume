@@ -30,7 +30,7 @@
         "iconName": "fa-globe"
       }
     },
-    "interests": "Ultimate Frisbee, Board Games, Cooking",
+    "interests": "Ultimate Frisbee, Illustration, Board Games, Cooking",
     "footer": "References available upon request."
   },
   "work": [
@@ -100,6 +100,7 @@
       "awards": "Dean's Scholar, Dean's List, Honors Program",
       "activities": "Ultimate Frisbee Club Team",
       "highlights": "Semester abroad in Edinburgh in Fall 2017"
+      "relevantCoursework": "Human-Computer Interaction, Design Process Context/Systems, Object-Oriented Design"
     }
   ],
   "projects": {
@@ -169,7 +170,7 @@
     },
     {
       "type": "Programming Languages",
-      "list": "JavaScript, TypeScript, HTML5, CSS3, Python, Java, Lua, Racket"
+      "list": "JavaScript, TypeScript, HTML5, CSS3, Python, Java, Racket"
     },
     {
       "type": "Tools",

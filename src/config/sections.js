@@ -114,6 +114,7 @@ export const fragments = graphql`
       awards
       activities
       highlights
+      relevantCoursework
     }
   }
 
