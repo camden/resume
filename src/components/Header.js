@@ -65,7 +65,7 @@ const Name = styled.h2`
   margin-top: 0;
   margin-right: 2rem;
 
-  @media (min-width: ${styles.breakpoints.mobile}) {
+  @media print, (min-width: ${styles.breakpoints.mobile}) {
     justify-content: flex-end;
     margin-right: 0;
   }
@@ -81,7 +81,7 @@ const InfoRow = styled.div`
   align-items: center;
   justify-content: flex-start;
 
-  @media (min-width: ${styles.breakpoints.mobile}) {
+  @media print, (min-width: ${styles.breakpoints.mobile}) {
     justify-content: flex-end;
   }
 `;
