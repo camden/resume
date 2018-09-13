@@ -12,7 +12,6 @@ class Resume extends React.Component {
     const { data: rawData, queryString } = this.props;
 
     const data = fixDataBasedOnQueryString(rawData, queryString);
-    console.log(data);
 
     return (
       <Wrapper>

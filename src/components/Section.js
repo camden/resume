@@ -13,7 +13,6 @@ const Section = props => {
   const itemData = data.getIn(mainPropertyPath);
 
   if (!itemData) {
-    console.log(data);
     throw new Error(`Could not get item data for ${title}.`);
   }
   return (
