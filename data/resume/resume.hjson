@@ -173,7 +173,7 @@
   "skills": [
     {
       "type": "Web Development",
-      "list": "React, Redux, Jest, Express, Webpack, Parcel, FlowType, Enzyme, Sinon, Redis"
+      "list": "React, Redux, Vue, Jest, Express, Webpack, Parcel, FlowType, Enzyme, Sinon, Redis"
     },
     {
       "type": "Programming Languages",
