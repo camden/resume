@@ -20,7 +20,7 @@ class EducationItem extends React.Component {
         startDate={data.get('startDate')}
         endDate={data.get('endDate')}
       >
-        <ItemParagraph emphasized={true}>
+        <ItemParagraph emphasized={true} block={true}>
           <div>{data.get('college')}</div>
           <div>
             {data.get('area')}
