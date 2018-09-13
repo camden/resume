@@ -92,6 +92,9 @@ const InfoItem = styled.span`
 
 const InfoLink = styled.a`
   color: inherit;
+  @media print {
+    text-decoration: none;
+  }
 `;
 
 export default Header;

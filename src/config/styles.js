@@ -16,7 +16,7 @@ export default {
   colors: {
     text: '#333',
     itemDate: '#999',
-    sectionTitle: 'palevioletred',
+    sectionTitle: '#30798c',
   },
   options: {
     serif: true,

@@ -41,6 +41,8 @@ const Title = styled.h2`
 
   @media print, (min-width: ${styles.breakpoints.mobile}) {
     margin: 0;
+    position: relative;
+    top: -2px;
   }
 `;
 

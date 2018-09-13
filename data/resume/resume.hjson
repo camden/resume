@@ -44,7 +44,7 @@
       "techUsed": "React Native, Redux, TypeScript",
       "highlights": [
         'Developed a customer-facing React Native + Typescript app for a breakthrough Amazon Go project',
-        'Organized and executed a series of UX user tests using expectation testing and "think-aloud" tests',
+        'Organized and executed a series of UX user tests using expectation testing and “think-aloud” tests',
         'Designed multiple iterations of the core product using Sketch and Draw.io for use in user tests and presentations',
         "Formalized the app's UX flow into a finite state machine that became the basis for UX discussions",
       ]
@@ -58,9 +58,9 @@
       "summary": "",
       "techUsed": "",
       "highlights": [
-        'Overhauled core features of the next major iteration of the reports builder',
-        "Adapted the product's plugin infrastructure to support Redux, upon which I implemented the first fully interactive plugin",
-        'Launched multiple projects within the reporting platform',
+        'Overhauled core features of the next major iteration of the report builder',
+        "Adapted the product's plugin architecture to support Redux, upon which I implemented the first fully interactive dashboard widget",
+        'Implemented, tested, and delivered new features within the reporting platform',
         'Revamped the entire documentation for a major internal library used across HubSpot',
       ]
     },
@@ -91,7 +91,6 @@
         "Implemented payment processing in Django and AngularJS (both learned on the job) using the Stripe API on TuneRegistry, an online music catalog metadata manager",
         "Integrated Django-Channels (WebSockets) with TuneRegistry to bring live-updating to user-facing forms",
         "Overhauled an existing Django API to interface with an iOS application",
-        "Collaborated with colleagues using JIRA and the Git flow model to tackle dozens of bug reports and feature requests"
       ]
     }
   ],
@@ -116,7 +115,7 @@
     "items": [
       {
         "title": "Rulebook.io",
-        "summary": "Community-curated rulebooks for board games - with all data hosted on GitHub. Full-stack solution that uses Docker + Dokku for deployment, Node.js + Express on the back-end, Redis for caching, and React for the front-end.",
+        "summary": "Community-curated rulebooks for board games — with all data hosted on GitHub. Full-stack solution that uses Docker + Dokku for deployment, Node.js + Express on the back-end, Redis for caching, and React for the front-end.",
         "techUsed": "React, Docker, Dokku, Node.js, Express, Redis",
         "highlights": [
         ],
@@ -124,7 +123,7 @@
       },
       {
         "title": "TinyD20",
-        "summary": "D&D dice-simulator built from the ground-up using HTML/CSS, Javascript, and the Chrome Extension API. Currently has 4000+ active users and a 5-star review on the Chrome Web Store.",
+        "summary": "D&D dice-simulator built from the ground-up using HTML/CSS, Javascript, and the Chrome Extension API. Currently has 5000+ active users and a 5-star review (with 87 ratings) on the Chrome Web Store.",
         "techUsed": "JavaScript, HTML5, CSS3, Chrome Extension API",
         "highlights": [
         ],
@@ -149,7 +148,7 @@
       },
       {
         "title": "Menubar D20",
-        "summary": "Precursor to TinyD20 - OS X menubar application made using Swift 2 that simulates D&D dice rolls.",
+        "summary": "Precursor to TinyD20 — OS X menubar application made using Swift 2 that simulates D&D dice rolls.",
         "techUsed": "XCode, Swift 2",
         "highlights": [
 
@@ -174,11 +173,15 @@
   "skills": [
     {
       "type": "Web Development",
-      "list": "React, Redux, Jest, Express, Webpack, FlowType, Enzyme, Sinon, Redis"
+      "list": "React, Redux, Jest, Express, Webpack, Parcel, FlowType, Enzyme, Sinon, Redis"
     },
     {
       "type": "Programming Languages",
       "list": "JavaScript, TypeScript, HTML5, CSS3, Python, Java, Racket"
+    },
+    {
+      "type": "Design",
+      "list": "Sketch, Illustrator, Affinity Designer, Photoshop, Draw.io, Adobe XD"
     },
     {
       "type": "Tools",
