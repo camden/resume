@@ -60,7 +60,6 @@
       "highlights": [
         'Overhauled core features of the next major iteration of the report builder',
         "Adapted the product's plugin architecture to support Redux, upon which I implemented the first fully interactive dashboard widget",
-        'Implemented, tested, and delivered new features within the reporting platform',
         'Revamped the entire documentation for a major internal library used across HubSpot',
       ]
     },
@@ -106,7 +105,6 @@
       "endDate": "Present (Expected Spring 2020)",
       "awards": "Dean's Scholar, Dean's List, Honors Program",
       "activities": "Ultimate Frisbee Club Team",
-      "highlights": "Semester abroad in Edinburgh in Fall 2017"
       "relevantCoursework": "Human-Computer Interaction, Design Process Context/Systems, Object-Oriented Design"
     }
   ],
@@ -140,7 +138,7 @@
       },
       {
         "title": "cambickel.com",
-        "summary": "Personal website made with React + Gatsby + a resume.json file.",
+        "summary": "Personal website made with React + Gatsby with frequently-updated data stored in json files.",
         "techUsed": "React.js, Gatsby",
         "highlights": [
         ],
