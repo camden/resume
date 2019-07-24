@@ -72,8 +72,7 @@
       "summary": "",
       "techUsed": "",
       "highlights": [
-        'Overhauled core features of the next major iteration of the report builder',
-        "Adapted the product's plugin architecture to support Redux, upon which I implemented the first fully interactive dashboard widget",
+        "Adapted the product's plugin architecture to support Redux, upon which I implemented the first interactive UI widget",
         'Revamped the entire documentation for a major internal library used across HubSpot',
       ]
     },
@@ -87,7 +86,7 @@
       "techUsed": "React, Redux",
       "highlights": [
         "Won People's Choice Award at office-wide hackathon with fully-functional MVP web app",
-        "Owned three major React + Redux dev tool projects, each fully tested with Sinon and Enzyme. Used daily by dozens of engineers across Intuit",
+        "Owned three major React + Redux dev tool projects, each tested with Sinon and Enzyme. Used daily by dozens of engineers across Intuit",
         "Designed and implemented DepCop, a JavaScript tool that analyzes Webpack compilation output and uses static file parsing to enforce dependency restrictions. DepCop is now run before nearly every git push at Intuit",
         "Collaborated with the director of engineering and the primary architects from each domain at Intuit (payment, accounting, etc.) to develop a tool that measures per-team development velocity based on static code analysis"
       ]
