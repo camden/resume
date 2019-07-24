@@ -29,7 +29,9 @@ class EducationItem extends React.Component {
         </ItemParagraph>
         <ItemInlineList title={'Activities'} items={data.get('activities')} />
         <ItemInlineList title={'Awards/Honors'} items={data.get('awards')} />
-        <ItemInlineList title={'Highlights'} items={data.get('highlights')} />
+        { !!data.get('highlights') && 
+         <ItemInlineList title={'Highlights'} items={data.get('highlights')} />
+        }
         <ItemInlineList
           title={'Relevant Coursework'}
           items={data.get('relevantCoursework')}
