@@ -14,6 +14,8 @@ const mergeEnvData = infoData => {
     missingLabels.forEach(label => console.log(`Missing: ${label}`));
     console.groupEnd();
   }
+  
+  console.log(process.env)
 
   return infoData
     .set('phone', process.env.INFO_PHONE)
