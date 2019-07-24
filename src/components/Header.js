@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'react-emotion';
 import styles from 'config/styles';
 import Spacer from 'components/shared/Spacer';
-import { Globe, Github, Mail, Phone, MapPin } from 'react-feather';
+import { Globe, GitHub, Mail, Phone, MapPin } from 'react-feather';
 
 const Header = props => {
   const { data } = props;
@@ -29,7 +29,7 @@ const Header = props => {
           <InfoItem>{data.get('phone')}</InfoItem>
         </InfoRow>
         <InfoRow>
-          <Github size={styles.fontSize.icon} />
+          <GitHub size={styles.fontSize.icon} />
           <InfoItem>
             <InfoLink
               href={data.getIn(['profiles', 'github', 'url'])}
