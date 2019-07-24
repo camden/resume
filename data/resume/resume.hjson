@@ -35,6 +35,20 @@
   },
   "work": [
     {
+      "company": "Drift",
+      "website": "drift.com",
+      "position": "Software Engineer Co-op",
+      "startDate": "2019-01-09",
+      "endDate": "2019-06-24",
+      "summary": "",
+      "techUsed": "React, Redux, JavaScript",
+      "highlights": [
+        "Spearheaded the design, implementation, and iterative improvements of Drift's UI component library documentation site, saving an estimated 12+ hours of developer time per week across ~20 devs",
+        "Implemented the front-end experience for Drift's Marketo integration, which was ultimately presented at Adobe's Summit conference by the CEOs of Drift and Marketo",
+        "Collaborated with product managers and designers to conduct user research and usability testing"
+      ]
+    },
+    {
       "company": "Amazon",
       "website": "amazon.com",
       "position": "SDE Intern",
