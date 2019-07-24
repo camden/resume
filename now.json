@@ -1,5 +1,6 @@
 {
   "version": 2,
+  "alias": "resume.cambickel.com",
   "build": {
     "env": {
       "GATSBY_INFO_PHONE": "@info_phone",
