@@ -1,4 +1,5 @@
 {
+  "version": 2,
   "build": {
     "env": {
       "INFO_PHONE": "@info_phone"
