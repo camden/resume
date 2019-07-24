@@ -2,7 +2,11 @@
   "version": 2,
   "build": {
     "env": {
-      "GATSBY_INFO_PHONE": "@info_phone"
+      "GATSBY_INFO_PHONE": "@info_phone",
+      "GATSBY_INFO_EMAIL": "@info_email",
+      "GATSBY_INFO_LOCATION_CITY": "@info_city",
+      "GATSBY_INFO_LOCATION_REGION": "@info_region",
+      "GATSBY_INFO_LOCATION_COUNTRY": "@info_country"
     }
   }
 }
