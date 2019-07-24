@@ -15,6 +15,8 @@ const mergeEnvData = infoData => {
     console.groupEnd();
   }
 
+  console.log(JSON.stringify(process.env), process.env)
+  
   return infoData
     .set('phone', process.env.INFO_PHONE)
     .set('email', process.env.INFO_EMAIL)
