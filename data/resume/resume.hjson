@@ -35,6 +35,18 @@
   },
   "work": [
     {
+      "company": "Google",
+      "website": "google.com",
+      "position": "Software Engineer Intern",
+      "startDate": "2019-06-24",
+      "endDate": "2019-09-06",
+      "summary": "",
+      "techUsed": "Angular, TypeScript",
+      "highlights": [
+        "Owned the development of a major (confidential) integration of Messages for Web",
+      ]
+    },
+    {
       "company": "Drift",
       "website": "drift.com",
       "position": "Software Engineer Co-op",
