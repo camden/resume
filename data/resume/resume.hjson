@@ -99,9 +99,7 @@
       "highlights": [
         "Won People's Choice Award at office-wide hackathon with fully-functional MVP web app",
         "Owned three major React + Redux dev tool projects, used daily by dozens of engineers across Intuit",
-        "Designed and implemented DepCop, a JavaScript tool that analyzes Webpack compilation output and uses static file parsing to enforce dependency restrictions. DepCop is now run before nearly every git push at Intuit",
-        "Collaborated with the director of engineering and the primary architects from each domain at Intuit (payment, accounting, etc.) to develop a tool that measures per-team development velocity based on static code analysis"
-      ]
+        "Designed and implemented DepCop, a JavaScript tool that analyzes Webpack compilation output and uses static file parsing to enforce dependency restrictions. DepCop is now run before nearly every git push at Intuit",      ]
     },
     {
       "company": "ClearSummit",
