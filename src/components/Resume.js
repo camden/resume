@@ -38,7 +38,7 @@ const Wrapper = styled.div`
 `;
 
 const Footer = styled.div`
-  margin-top: 2rem;
+  margin-top: 1rem;
   font-style: italic;
   text-align: center;
 `;
