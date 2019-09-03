@@ -44,6 +44,7 @@
       "techUsed": "Angular, TypeScript",
       "highlights": [
         "Owned the development of a major (confidential) integration of Messages for Web",
+        "Optimized the emoji picker in Messages for Web to load 59% quicker"
       ]
     },
     {
@@ -72,7 +73,6 @@
         'Developed a customer-facing React Native + Typescript app for a breakthrough Amazon Go project',
         'Organized and executed a series of UX user tests using expectation testing and “think-aloud” tests',
         'Designed multiple iterations of the core product using Sketch and Draw.io for use in user tests and presentations',
-        "Formalized the app's UX flow into a finite state machine that became the basis for UX discussions",
       ]
     },
     {
