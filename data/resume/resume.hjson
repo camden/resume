@@ -43,7 +43,7 @@
       "summary": "",
       "techUsed": "Angular, TypeScript",
       "highlights": [
-        "Owned the development of a major (confidential) integration of Messages for Web",
+        "Owned the development of a major (confidential) integration of Messages for Web using Angular",
         "Optimized the emoji picker in Messages for Web to load 59% quicker"
       ]
     },
