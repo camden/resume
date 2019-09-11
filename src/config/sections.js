@@ -83,7 +83,6 @@ export const fragments = graphql`
         summary
         techUsed
         dateFinished
-        hidden
       }
     }
   }
