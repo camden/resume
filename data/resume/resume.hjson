@@ -167,16 +167,6 @@
         ],
         "dateFinished": "2018-07-01"
       },
-      {
-        "title": "Menubar D20",
-        "summary": "Precursor to TinyD20 — OS X menubar application made using Swift 2 that simulates D&D dice rolls.",
-        "techUsed": "XCode, Swift 2",
-        "highlights": [
-
-        ],
-        "hidden": true,
-        "dateFinished": "2015-08-02"
-      }
     ]
   },
   "volunteer": [
