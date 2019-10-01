@@ -24,9 +24,6 @@ const Header = props => {
         <InfoRow>
           <Mail size={styles.fontSize.icon} />
           <InfoItem>{data.get('email')}</InfoItem>
-          <Spacer />
-          <Phone size={styles.fontSize.icon} />
-          <InfoItem>{data.get('phone')}</InfoItem>
         </InfoRow>
         <InfoRow>
           <GitHub size={styles.fontSize.icon} />
