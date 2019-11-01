@@ -84,7 +84,7 @@
       "summary": "",
       "techUsed": "",
       "highlights": [
-        "Adapted the prduct's plugin system to use Redux, upon which I implemented the first interactive UI widget",
+        "Adapted the product's plugin system to use Redux, upon which I implemented the first interactive UI widget",
         'Revamped the entire documentation for a major internal library used across HubSpot',
       ]
     },
