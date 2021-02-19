@@ -124,7 +124,7 @@
       "gpa": "3.67 / 4.00 GPA",
       "studyType": "Bachelor of Science",
       "startDate": "2015-09-02",
-      "endDate": "Present (Expected Spring 2020)",
+      "endDate": "2020-05-01",
       "awards": "Dean's Scholar, Dean's List, Honors Program",
       "activities": "Ultimate Frisbee Club Team",
       "highlights": "",
@@ -135,7 +135,15 @@
     "subtitle": "For more information about each project (and other projects), visit cam.bickel.io and github.com/camden",
     "items": [
       {
-        "title": "Rulebook.io",
+        "title": "Birdbrain Games (birdbrain.games)",
+        "summary": "Mobile-first party games website similar to Jackbox Games, playable entirely in-browser (no game console needed). Final project for my CS + Design degree.",
+        "techUsed": "React, Redux, Node.js, Express, Socket.io, Typescript",
+        "highlights": [
+        ],
+        "dateFinished": "2020-10-01"
+      },
+      {
+        "title": "Rulebook.io (Note: Site is now offline)",
         "summary": "Community-curated rulebooks for board games — with all data hosted on GitHub. Full-stack solution that uses Docker + Dokku for deployment, Node.js + Express on the back-end, Redis for caching, and React for the front-end.",
         "techUsed": "React, Docker, Dokku, Node.js, Express, Redis",
         "highlights": [
